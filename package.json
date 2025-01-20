@@ -2,15 +2,18 @@
   "name": "carrito",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://sarycast.github.io/ecommerse-Front-React/",
   "dependencies": {
     "bootstrap": "^5.3.3",
+    "gh-pages": "^6.3.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
-    "react-scripts": "^2.1.8",
+    "react-scripts": "^5.0.1",
     "reactstrap": "^9.2.3"
   },
-
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "ph-pages -d build",
     "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
     "build": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
     "test": "react-scripts test",
@@ -32,4 +35,3 @@
     ]
   }
 }
-
