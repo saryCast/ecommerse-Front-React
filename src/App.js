@@ -130,16 +130,17 @@ class App extends React.Component{
         }
       );
     return (
-      <Container>
-        <Navegacion titulo="Mi primer sitio de compras en React"
+      <Container fluid>
+        <Navegacion titulo="E-Cart"
         popoverOpen={this.state.popoverOpen} 
         toggleCarro={this.toggleCarro}
         cantidadCarrito={this.state.cantidadCarrito}
         />
+        <Container>
         <Row>
           {arregloComponentes}
-        
         </Row>
+        </Container>
       </Container>
     );
   } 

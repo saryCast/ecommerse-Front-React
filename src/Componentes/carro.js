@@ -48,9 +48,9 @@ class Carro extends React.Component{
         )
         return(
             <div>
-                <Button id="Popover1" color="danger">
+                <Button id="Popover1" color="secondary">
                 <span class="material-icons">shopping_cart</span>
-                    <Badge color="success">{arregloCarrito.length}</Badge>
+                    <Badge color="warning">{arregloCarrito.length}</Badge>
                 </Button>
                 <Popover target="Popover1" placement="bottom" isOpen={this.state.popoverOpen} toggle={this.toggle}>
                     <PopoverHeader>Lista de Compras</PopoverHeader>

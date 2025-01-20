@@ -5,7 +5,7 @@ import Carro from './carro'
 class Navegacion extends React.Component{
     render(){
         return(
-            <Navbar color='secondary' light expand="md">
+            <Navbar color='warning' light expand="md">
                 <NavbarBrand href='/'>{this.props.titulo}</NavbarBrand>
                 <Nav className="ml-auto" navbar>
                     <NavItem>
