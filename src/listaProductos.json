@@ -1,0 +1,37 @@
+{
+    "listaProductos":[
+        {
+            "titulo":"Headphone Purple",
+            "imagen":"https://image.freepik.com/vector-gratis/ilustracion-icono-auriculares_17146-29.jpg",
+            "descripcion":"Audifonos Alta calidad de sonido, HD Sonido Envolvente",
+            "precio":"24.390",
+            "stock":"4"
+            
+        },
+
+        {
+            "titulo":"Smart Watch",
+            "imagen":"https://img.freepik.com/vector-gratis/reloj-inteligente_23-2147519962.jpg",
+            "descripcion":"Reloj inteligente Apple",
+            "precio":"250.000",
+            "stock":"5"
+        },
+
+        {
+            "titulo":"Smart Farm",
+            "imagen":"https://img.freepik.com/fotos-premium/ilustracion-smart-farm-dron-que-rocia-pesticidas-control-humano_756405-30224.jpg",
+            "descripcion":"Dron, para uso de rocío de pesticidas",
+            "precio":"325.690",
+            "stock":"2"
+        },
+
+        {
+            "titulo":"Tableta Gráfica",
+            "imagen":"https://img.freepik.com/vector-premium/icono-tableta-grafica-vectorial-plana-aislado-fondo-blanco_1120558-41039.jpg",
+            "descripcion":"Tableta digital para gráficos vectoriales",
+            "precio":"189.990",
+            "stock":"7"
+        }
+
+    ]
+}
