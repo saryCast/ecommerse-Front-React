@@ -3,7 +3,7 @@ import {Container, Row} from 'reactstrap';
 import './App.css';
 import Producto from './Componentes/Producto';
 import Navegacion from './Componentes/Navegacion';
-import {listaProductos} from './listaProductos.json';
+import listaProductos from './listaProductos.json';
 
 /*
 function App() {
