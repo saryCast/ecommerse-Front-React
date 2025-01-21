@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button, CardText, Col,CardSubtitle, CardImg,CardTitle,CardBody, Card } from 'reactstrap';
+import {CardText, Col,CardSubtitle, CardImg,CardTitle,CardBody, Card } from 'reactstrap';
 import './Producto.css';
 import FichaProducto from './fichaProducto';
 
