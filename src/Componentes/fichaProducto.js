@@ -1,7 +1,7 @@
 import React from 'react'
 import {Modal, Container, Button, ModalHeader, ModalBody, ModalFooter, CardImg} from 'reactstrap';
 import './fichaProducto.css';
-import {listaCarrito} from '../listaCarrito.json';
+import listaCarrito from '../listaCarrito.json';
 
 
 class FichaProducto extends React.Component{
