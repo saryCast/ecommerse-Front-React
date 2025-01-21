@@ -1,6 +1,6 @@
 import React from 'react';
 import {Popover, PopoverHeader, PopoverBody, Table, Badge, Button } from 'reactstrap';
-import {listaCarrito} from '../listaCarrito';
+import listaCarrito from '../listaCarrito';
 
 class Carro extends React.Component{
     //Metodo constructor, antes de renderizar
